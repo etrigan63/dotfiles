@@ -1,0 +1,2 @@
+sudo rsync -a --progress /mnt/data/guru/* /mnt/raid5/Backups/Cluster/current/guru
+sudo rsync -a --progress /home/guru/* /mnt/raid5/Backups/home/guru

@@ -10,7 +10,9 @@ sudo pacman -Syy
 
 #Begin installing stuff I need
 sudo pacman -S firefox git curl htop glances rapid-photo-downloader darktable rawtherapee nextcloud-desktop-client
-sudo yay -S wavebox-bin
+
+#Install from AUR. DO NOT run yay as root!
+yay -S wavebox-bin vtop
 
 #Remove stuff I don't need
 sudo pacman -R vivialdi
@@ -22,3 +24,6 @@ echo -e "\n[sublime-text]\nServer = https://download.sublimetext.com/arch/stable
 
 #Install specials
 sudo pacman -Sy sublime-text sublime-merge
+
+#Post-install
+lensfun-update-data

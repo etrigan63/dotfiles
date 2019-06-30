@@ -1,2 +1,2 @@
 # dotfiles
-Various dotfiles that I share setween systems
+Various dotfiles that I share between systems

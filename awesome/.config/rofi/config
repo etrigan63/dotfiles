@@ -1,3 +1,3 @@
-rofi.theme: /usr/share/rofi/themes/Arc-Dark-Numix.rasi
+rofi.theme: /usr/share/rofi/themes/Nord.rasi
 rofi.combi-modi:    window,drun,ssh
 rofi.modi:          combi,drun
